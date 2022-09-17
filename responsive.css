@@ -39,6 +39,7 @@
     }
     .galeria{
         top:-140px;
+        margin-bottom: -170px;
     }
     .galeria .container{
         display: flex;
@@ -60,7 +61,7 @@
         top: 0;
     }
     footer p{
-        padding: 35px;
+        padding: 50px;
     }
 }
 
@@ -125,7 +126,7 @@
         top: 0;
     }
     footer p{
-        padding: 30px;
+        padding: 50px;
     }
 
 }
@@ -136,7 +137,7 @@
         line-height: 10vw; 
      }
      .main{
-        top:480px;
+        top:465px;
      }
      .section-audax h1{
         font-size: 4rem;
@@ -147,7 +148,8 @@
         margin-top:700px;
      }
      .galeria{
-        top: 500px;
+        top: 490px;
+        margin-bottom: 30px;
      }
      
      footer{
@@ -157,9 +159,14 @@
         
     }
     footer p{
-        padding: 30px;
+        padding: 50px;
     }
 }
+
+@media (max-width:1501px) and (max-width:2560px){
+
+}
+
 @media (min-width:1300px) and (max-height:2560px){
     .section h1{
         font-size: 5rem;
@@ -179,7 +186,7 @@
       
     }
     footer p{
-        padding: 50px;
+        padding: 35px;
     }
      
 }

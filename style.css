@@ -202,7 +202,7 @@ body {
 
 /* section */
 .section {
-  background: url(images/bg.jpg);
+  background: url(images/blog/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
