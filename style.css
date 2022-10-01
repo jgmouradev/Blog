@@ -84,7 +84,7 @@ body {
 .menu-right {
   position: absolute;
   background: #fff;
-  width: 100%;
+  width:360px;
   top: 50px;
   left: 0;
   opacity: 0;
