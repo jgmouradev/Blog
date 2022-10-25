@@ -1,0 +1,213 @@
+/*Small Devices*/
+
+@media (min-width:375px) and ( max-width:500px){
+   
+    .mega-menu .content{
+        grid-template-columns: 1fr;
+        height: 200vh;
+        justify-content: center;
+        text-align: center;
+    }
+    .blog .content{
+        height: 230vh;
+    }
+    .section{
+        position: relative;
+    }
+    
+    .section h1{
+       font-size: 3rem;
+       letter-spacing: 5px;
+       line-height: 18vw; 
+    }
+
+    .section-audax{
+        position: relative;
+    }
+    
+    .section-audax h1{
+       font-size: 3rem;
+       letter-spacing: 5px;
+       line-height: 18vw; 
+    }
+    
+    .main{
+        top:0;
+        margin-top: 65px;
+    }
+    .main-audax{
+        top:0;
+        margin-top: 65px;
+    }
+    .galeria{
+        top:15px;
+        margin-bottom: -25px;
+    }
+    .galeria .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 15px;
+        margin-bottom: 55px;
+    }
+    
+    .content .col .img-wrapper {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        overflow: hidden;
+      }
+    footer{
+        height: 12vh;
+        top: 0;
+    }
+    footer p{
+        padding: 50px;
+    }
+}
+
+@media(min-width:501px) and (max-width:920px){
+    .mega-menu .content{
+        grid-template-columns: 1fr;
+        height: 200vh;
+        justify-content: center;
+        text-align: center;
+    }
+    .blog .content{
+        height: 230vh;
+    }
+    .section{
+        position: relative;
+    }
+    
+    .section h1{
+       font-size: 3.5rem;
+       letter-spacing: 5px;
+       line-height: 15vw; 
+    }
+    .main{
+        top:0px;
+        margin-top: 90px;
+    }
+    .section-audax{
+        position: relative;
+    }
+    
+    .section-audax h1{
+       font-size: 3.5rem;
+       letter-spacing: 5px;
+       line-height: 15vw; 
+    }
+    .main-audax{
+        top:0;
+        margin-top: 90px;
+        
+    }
+    .galeria{
+        top: 40px;
+    }
+    .galeria-audax{
+        margin-top:0;
+        top: 10px;
+    }
+    .galeria .container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 15px;
+        margin-bottom: 55px;
+    }
+    .content .col .img-wrapper {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        overflow: hidden;
+      }
+    footer{
+        height: 12vh;
+        top: 0;
+    }
+    footer p{
+        padding: 50px;
+    }
+
+}
+@media(min-width:921px) and (max-width:1500px){
+    .section h1{
+        font-size: 4rem;
+        letter-spacing: 5px;
+        line-height: 10vw; 
+     }
+     .main{
+        top:860px;
+        margin-top: 120px;
+     }
+     .section-audax h1{
+        font-size: 4rem;
+        letter-spacing: 5px;
+        line-height: 10vw; 
+     }
+     .main-audax{
+        top:860px;
+        margin-top: 120px;
+     }
+     .galeria{
+        margin-top:200px;
+        margin-bottom: 30px;
+     }
+     
+     footer{
+        height: 12vh;
+        top: 690px;
+        
+        
+    }
+    footer p{
+        padding: 50px;
+    }
+}
+
+@media (min-width:1320px){
+    .section h1{
+        font-size:5rem;
+    }
+}
+
+@media (min-width:1501px) and (max-width:2560px){
+    
+    .section h1{
+        font-size:5rem;
+    }
+    .main{
+        top:860px;
+        margin-top: 120px;
+     }
+     .main-audax{
+        top:860px;
+        margin-top: 120px;
+     }
+     .galeria{
+        margin-top:200px;
+        margin-bottom: 30px;
+     }
+     footer{
+        height: 12vh;
+        top: 690px;
+    }
+    footer p{
+        padding: 50px;
+    }
+}
+
+@media (min-width:1800px) and (max-width:2560px){
+    
+    .section h1{
+        font-size:5rem;
+    }
+}
+
+
+
+
